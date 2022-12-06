@@ -1,0 +1,15 @@
+{% extends 'parent.html' %}
+
+{% block title %}
+    <title>Child</title>
+{% endblock %}
+
+<!--{% block body_block %}
+        <h1>This Page belongs to Third Parent HTML page</h1>
+        <h1>This Page belongs to Sixth Parent HTML page</h1>
+{% endblock %}-->
+
+{% block body_block %}
+    <h1>This Page belongs to Child HTML page</h1>
+    <h1 class="btn btn-danger">Child HTML button</h1>
+{% endblock %}
